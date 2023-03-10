@@ -15,6 +15,7 @@ const Navigation = () => {
                 flexDirection: "row",
                 // border: 'solid red 1px'
             }}>
+                
             <h1 className="websiteName" style={{
                 width: "30%",
                 fontWeight: '500',

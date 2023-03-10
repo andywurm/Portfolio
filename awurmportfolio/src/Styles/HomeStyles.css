@@ -1,0 +1,100 @@
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* border: solid red 1px */
+}
+
+.homeInfo{
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    /* border: solid red 1px; */
+    padding-left: 20px;
+}
+
+.allInfo{
+    /* border: solid red 1px; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.homeCard{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -2%;
+}
+
+.keep{
+    display: inline;
+    /* border: solid blue 1px; */
+}
+
+.verify{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    display: inline;
+    position: relative;
+    top: 5px;
+    /* border: solid red 1px; */
+}
+
+.myName{
+    font-size: 3em;
+    display: inline;
+    /* border: solid red 1px; */
+    font-weight: 500;
+}
+
+.pronouns{
+    color: rgba(128, 128, 128, 0.78);
+    display: inline;
+    position: relative;
+    top: -20px;
+    font-size: 1.3em;
+    font-weight: 400;
+    /* border: solid red 1px; */
+}
+
+.location{
+    color: rgba(128, 128, 128, 0.78);
+    font-weight: 500;
+    /* border: solid red 1px */
+}
+
+.homeText{
+    font-size: 1.5em;
+}
+
+.pfp{
+    height: 170px;
+    width: 175px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #BD9DFF ;
+    padding: 5px 8px;
+    color: white;
+    border: solid #8D6AD7 1px;
+    /* border: none; */
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.paper{
+    width: fit-content;
+    background-color: #F9F9F9 !important;
+    border: solid #BAA6C6 1px;
+}

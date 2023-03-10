@@ -1,6 +1,16 @@
+import { motion } from "framer-motion"
+
 const About = () => {
-    return(
-        <div>About</div>
+    return (
+        <motion.div
+
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+
+        >
+            <div>About</div>
+        </motion.div>
     )
 }
- export default About
+export default About
