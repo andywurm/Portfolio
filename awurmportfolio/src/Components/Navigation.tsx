@@ -28,7 +28,7 @@ const Navigation = () => {
                     textDecoration: "none",
                     color: "#9E8EFF",
                     fontWeight: "bold"
-                }}>Andaiye Wurm
+                }}>AW
                 </NavLink>
             </h1>
 

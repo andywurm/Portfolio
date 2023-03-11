@@ -19,6 +19,8 @@
     /* border: solid red 1px; */
     width: 90%;
     margin: 0 auto;
+    position: relative;
+    top: -1%;
 }
 
 .homeCard{
@@ -56,7 +58,7 @@
     color: rgba(128, 128, 128, 0.78);
     display: inline;
     position: relative;
-    top: -20px;
+    top: -15px;
     font-size: 1.3em;
     font-weight: 400;
     /* border: solid red 1px; */
