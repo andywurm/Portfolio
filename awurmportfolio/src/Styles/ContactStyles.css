@@ -12,6 +12,8 @@
     justify-content: center;
     /* border: solid red 1px; */
     text-align: left;
+    position: relative;
+    top: -5%;
 }
 
 .connectText{

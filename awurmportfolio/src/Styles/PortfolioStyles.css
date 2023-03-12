@@ -1,0 +1,77 @@
+.portfolioContainer{
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* width: 75%; */
+    margin: 0 auto;
+}
+
+.pageTitle{
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #494253;
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    /* border: solid red 1px; */
+}
+
+.timelineTime{
+    font-size: 1.2em;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    /* border: solid red 1px; */
+    padding: 20px;
+    text-align: left;
+}
+
+.projectImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    display: inline-block;
+    /* border: solid red 1px; */
+}
+
+.projectTitle{
+    display: inline-block;
+    font-size: 2.3em;
+    font-weight: 400;
+    position: relative;
+    top: -7px;
+    margin-left: 10px;
+}
+
+.projectDate{
+    color: #7b7a7b;
+    font-size: 1.2em;
+    padding: 15px 0;
+    margin-bottom: 10px;
+}
+
+.projectLink{
+    text-decoration: underline;
+    color:#af91ea;
+}
+
+.projectLink:hover{
+    color:#54436d;
+}
+.goToWeb{
+    font-size: 1.1em;
+    padding: 3px 0;
+}
+
+.listed{
+    padding: 5px 0;
+    font-size: 1.1em;
+}

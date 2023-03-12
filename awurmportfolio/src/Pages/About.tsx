@@ -9,7 +9,7 @@ const About = () => {
             exit={{ opacity: 0 }}
 
         >
-            <div>About</div>
+            <div>Coming Soon</div>
         </motion.div>
     )
 }
