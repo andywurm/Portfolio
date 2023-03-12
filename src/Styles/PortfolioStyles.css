@@ -77,6 +77,11 @@
 }
 
 .listed{
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+.tech{
     padding: 5px 0;
     font-size: 1.1em;
 }

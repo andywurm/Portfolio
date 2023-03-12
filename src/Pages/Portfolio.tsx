@@ -42,7 +42,7 @@ const Portfolio = () => {
                                     <TimelineDot sx={{
                                         backgroundColor: '#af91ea'
                                     }} />
-                                    <TimelineConnector style={{ height: '600px' }} />
+                                    <TimelineConnector style={{ height: '550px' }} />
                                 </TimelineSeparator>
                                 <TimelineContent style={{ color: "gray" }}>Today</TimelineContent>
                             </TimelineItem>
@@ -85,7 +85,7 @@ const Portfolio = () => {
                                     
                                     <div className="listed">Users can search and view skater information, upcoming events and past results. Thus all figure skating information is located all in one place.</div>
 
-                                    <div>Tech: React, TypeScript, HTML/CSS, Node.js, Express.js</div>
+                                    <div className="tech"><b>Technology Used </b>: React, TypeScript, HTML/CSS, Node.js, Express.js</div>
                             </div>
 
                         </div>
@@ -110,13 +110,12 @@ const Portfolio = () => {
                             </div>
 
                             <div className="projectDesc">
-                                <ul style={{ padding: "20px", margin: "0" }}>
-                                    <li className="listed">Created a multi-page website using Express for the backend and React, JavaScript, HTML, CSS and Bootstrap for the frontend.
-                                    </li>
-                                    <li className="listed">Allows users to track which Japanese shows or movies they have watched, are watching or plan to watch.
+                                    <div className="listed">Allows users to track which Japanese shows or movies they have watched, are watching or plan to watch.
                                         The user is able to read up on the content, and decide which list they would like to add that show or movie to.
-                                    </li>
-                                </ul>
+                                    </div>
+                                    <div className="tech">
+                                        <b>Technology Used:</b> React, JavaScript, HTML/CSS, Node.js, Express.js
+                                    </div>
                             </div>
 
                         </div>
