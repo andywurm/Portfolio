@@ -2,7 +2,7 @@
     /* border: solid red 1px; */
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 70%;
     /* width: 75%; */
     margin: 0 auto;
 }
@@ -10,8 +10,10 @@
 .pageTitle{
     text-align: left;
     font-size: 2.5em;
-    font-weight: 600;
+    font-weight: 500;
     color: #494253;
+    padding: 40px;
+    margin-bottom: 20px;
 }
 
 .timeline{

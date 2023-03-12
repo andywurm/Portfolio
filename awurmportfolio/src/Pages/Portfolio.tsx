@@ -18,7 +18,7 @@ const Portfolio = () => {
         >
             <div style={{height:"80vh", width: "75%", margin: "0 auto", marginTop: '20px' }}>
 
-                {/* <div className="pageTitle">Projects</div> */}
+                <div className="pageTitle">Here's what I've been up to...</div>
 
                 <div className="portfolioContainer">
 
@@ -30,7 +30,7 @@ const Portfolio = () => {
                                     <TimelineDot color="primary" />
                                     <TimelineConnector style={{ height: '300px' }} />
                                 </TimelineSeparator>
-                                <TimelineContent style={{color: "gray"}}>Present</TimelineContent>
+                                <TimelineContent style={{color: "gray" }}>Today</TimelineContent>
                             </TimelineItem>
                             <TimelineItem>
                                 <TimelineSeparator>
