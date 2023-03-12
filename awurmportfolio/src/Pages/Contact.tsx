@@ -4,6 +4,7 @@ import gh from '../Img/25231.png'
 import li from '../Img/174857.png'
 import { useState } from "react"
 import emailjs from 'emailjs-com';
+import test from '../Img/Contact.png'
 
 const Contact = () => {
 
@@ -11,7 +12,7 @@ const Contact = () => {
 
     function handleClick(e: React.FormEvent<HTMLFormElement>) {
 
-        e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+        e.preventDefault(); 
 
         emailjs.sendForm('service_mwp7ucd', 'template_xwdev3p', e.currentTarget, '1jdI11zU_-WBm37Az')
             .then((result) => {
@@ -50,6 +51,12 @@ const Contact = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
         // style={{border: 'solid red 1px'}}
+        style={{
+            backgroundImage: 'url(' + test + ')',
+            backgroundSize: 'cover',
+            // backgroundRepeat: 'no-repeat',
+            imageRendering: "crisp-edges"
+        }}
         >
             <div style={{ height: "80vh", width: "95%", margin: "0 auto" }}>
                 <div className="contactContainer">

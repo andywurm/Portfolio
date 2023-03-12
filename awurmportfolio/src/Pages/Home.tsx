@@ -4,7 +4,7 @@ import pfp from '../Img/Me.png'
 import { useNavigate } from "react-router-dom"
 import { Paper } from "@mui/material"
 import '../Styles/HomeStyles.css'
-import bkg from '../Img/HomeBkg.png'
+import bkg from '../Img/Backgrounds.png'
 
 const Home = () => {
 
@@ -20,9 +20,17 @@ const Home = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            style={{ width: "100%" }}
+
+            style={{
+                width: "100%",
+                backgroundImage: 'url(' + bkg + ')',
+                backgroundSize: 'cover',
+                opacity: '0.2',
+                // backgroundRepeat: 'no-repeat',
+                imageRendering: "crisp-edges"
+            }}
         >
-            <div style={{ width: "75%", height: "65vh", margin: "0 auto" }}>
+            <div style={{ width: "70%", height: "80vh", margin: "0 auto" }}>
                 <div className="homeContainer">
 
                     <div className="homeInfo">
@@ -39,6 +47,7 @@ const Home = () => {
                     </div>
 
                     <div className="homeCard">
+                        <div className="circle"></div>
                         <Paper elevation={3} className="paper">
                             <div style={{ display: 'flex', flexDirection: "row", padding: "20px 20px" }}>
                                 <img className="pfp" src={pfp} alt="Me" />
@@ -54,13 +63,7 @@ const Home = () => {
 
             </div>
 
-            <div style={{
-                height: "20vh",
-                backgroundImage: 'url(' + bkg + ')',
-                // backgroundSize: 'cover',
-                // backgroundRepeat: 'no-repeat',
-                imageRendering: "crisp-edges"
-            }}></div>
+
 
         </motion.div>
     )
