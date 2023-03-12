@@ -75,20 +75,21 @@ const Portfolio = () => {
                             <div className="projectDate">Sep 2022 - Now</div>
 
                             <div className="goToWeb">
-                                Link to Website: <span className="projectLink" onClick={() => window.open("https://uptoskate.onrender.com/")}>https://uptoskate.onrender.com/</span>
+                                Website: <span className="projectLink" onClick={() => window.open("https://uptoskate.onrender.com/")}>https://uptoskate.onrender.com/</span>
                             </div>
                             <div className="goToWeb">
-                                Link to Repository: <span className="projectLink" onClick={() => window.open("https://github.com/andywurm/UpToSkate")}> https://github.com/andywurm/UpToSkate</span>
+                                Repository: <span className="projectLink" onClick={() => window.open("https://github.com/andywurm/UpToSkate")}> https://github.com/andywurm/UpToSkate</span>
                             </div>
 
                             <div className="projectDesc">
-                                <ul style={{ padding: "20px", margin: "0" }}>
-                                    <li className="listed">Designed and implemented a website that allows users to keep up with the sport of Figure Skating using React TypeScript for the frontend and Node.js + Express on the backend.</li>
-                                    <li className="listed">Users can search and view skater information, upcoming events and past results. Thus all figure skating information is located all in one place.</li>
-                                </ul>
+                                    
+                                    <div className="listed">Users can search and view skater information, upcoming events and past results. Thus all figure skating information is located all in one place.</div>
+
+                                    <div>Tech: React, TypeScript, HTML/CSS, Node.js, Express.js</div>
                             </div>
 
                         </div>
+
                         {/* -------------------------------------- */}
 
                         <div className="projectSep">
@@ -105,7 +106,7 @@ const Portfolio = () => {
                             <div className="projectDate">Feb - May 2022</div>
 
                             <div className="goToWeb">
-                                Link to Repository: <span className="projectLink" onClick={() => window.open("https://github.com/andywurm/DramaTracker")}> https://github.com/andywurm/DramaTracker</span>
+                                Repository: <span className="projectLink" onClick={() => window.open("https://github.com/andywurm/DramaTracker")}> https://github.com/andywurm/DramaTracker</span>
                             </div>
 
                             <div className="projectDesc">
