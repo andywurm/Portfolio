@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     height: 70%;
-    /* width: 75%; */
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@
 .timeline{
     display: flex;
     flex-direction: column;
-    flex-basis: 25%;
+    flex-basis: 100%;
     /* border: solid red 1px; */
 }
 
@@ -88,10 +88,12 @@
 
 .projectSep{
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .projectDesc{
-    color:#3a3a3b
+    color:#3a3a3b;
+    width: 70%;
 }
 
 .projImage{
