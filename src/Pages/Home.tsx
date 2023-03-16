@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import verified from '../Img/verifiedBadge.png'
-import pfp from '../Img/Me.png'
+import pfp from '../Img/MyPfp.png'
 import { useNavigate } from "react-router-dom"
 import { Paper } from "@mui/material"
 import '../Styles/HomeStyles.css'

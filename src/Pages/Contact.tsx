@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import '../Styles/ContactStyles.css'
 import gh from '../Img/25231.png'
 import li from '../Img/174857.png'
+import re from '../Img/file-solid.svg'
 import { useState } from "react"
 import emailjs from 'emailjs-com';
 import test from '../Img/Contact.png'
@@ -67,6 +68,7 @@ const Contact = () => {
                             <div>
                                 <img className="cLogo" src={gh} alt="github" onClick={() => window.open("https://github.com/andywurm?tab=repositories")} />
                                 <img className="cLogo" src={li} alt="linkedin" onClick={() => window.open("https://www.linkedin.com/in/andaiye-wurm-5bb375209/")} />
+                                <img className="cLogo" src={re} alt="resume" onClick={() => window.open("https://docs.google.com/document/d/1eenSs-CFLv9ssMDn--Uwngyl5BfwHH6RV9RzW2N3eVQ/edit?usp=sharing")} />
                             </div>
                         </div>
                     </div>
