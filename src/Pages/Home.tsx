@@ -35,7 +35,7 @@ const Home = () => {
         //     imageRendering: "crisp-edges"
         // }}
         >
-            <div style={{ width: "70%", height: "fit-content", margin: "0 auto", padding: "100px 0" }}>
+            <div style={{ width: "70%", height: "fit-content", margin: "0 auto", padding: "90px 0" }}>
                 <div className="homeContainer">
 
                     <div className="homeInfo">

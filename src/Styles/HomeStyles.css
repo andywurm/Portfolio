@@ -28,6 +28,8 @@
     flex-basis: 35%;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: -20px;
 }
 
 .keep {
