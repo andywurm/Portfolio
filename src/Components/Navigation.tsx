@@ -41,7 +41,7 @@ const Navigation = () => {
 
                 <div style={{ textAlign: "right", marginRight: '20px' }}>
                     <NavLink className="Links" to='/' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Home</NavLink>
-                    <NavLink className="Links" to='/About' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</NavLink>
+                    {/* <NavLink className="Links" to='/About' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</NavLink> */}
                     <NavLink className="Links" to='/Portfolio' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Portfolio</NavLink>
                     <NavLink className="Links" to='/Contact' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Contact</NavLink>
                 </div>

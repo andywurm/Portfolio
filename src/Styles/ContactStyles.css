@@ -82,3 +82,8 @@
     font-size: 1.1em;
     color: #414141;
 }
+
+.res{
+    position: relative;
+    top: -2px;
+}

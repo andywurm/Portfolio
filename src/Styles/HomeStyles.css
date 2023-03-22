@@ -1,13 +1,13 @@
-.homeContainer{
+.homeContainer {
     display: flex;
     flex-direction: row;
     height: 100%;
     /* border: solid red 1px */
 }
 
-.homeInfo{
+.homeInfo {
     display: flex;
-    flex-basis: 65%;
+    /* flex-basis: 65%; */
     flex-direction: column;
     text-align: left;
     justify-content: center;
@@ -15,7 +15,7 @@
     margin-left: 30px;
 }
 
-.allInfo{
+.allInfo {
     /* border: solid red 1px; */
     width: 90%;
     margin: 0 auto;
@@ -23,21 +23,19 @@
     top: -1%;
 }
 
-.homeCard{
+.homeCard {
     display: flex;
     flex-basis: 35%;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    top: -4%;
 }
 
-.keep{
+.keep {
     display: inline;
     /* border: solid blue 1px; */
 }
 
-.verify{
+.verify {
     height: 40px;
     width: 40px;
     margin-left: 5px;
@@ -47,14 +45,14 @@
     /* border: solid red 1px; */
 }
 
-.myName{
+.myName {
     font-size: 3em;
     display: inline;
     /* border: solid red 1px; */
     font-weight: 500;
 }
 
-.pronouns{
+.pronouns {
     color: rgba(128, 128, 128, 0.78);
     display: inline;
     position: relative;
@@ -64,19 +62,19 @@
     /* border: solid red 1px; */
 }
 
-.location{
+.location {
     color: rgba(128, 128, 128, 0.78);
     font-weight: 400;
     /* border: solid red 1px */
 }
 
-.homeText{
+.homeText {
     font-size: 1.5em;
     font-weight: 400;
-    color:#464346e3;
+    color: #464346e3;
 }
 
-.pfp{
+.pfp {
     height: 170px;
     width: 180px;
     border-radius: 110px;
@@ -85,7 +83,7 @@
     /* border: solid red 1px; */
 }
 
-.circle{
+.circle {
     background-color: rgb(119, 220, 88);
     height: 18px;
     width: 18px;
@@ -97,8 +95,8 @@
     /* border: solid red 1px; */
 }
 
-button{
-    background-color: #BD9DFF ;
+button {
+    background-color: #BD9DFF;
     padding: 5px 20px;
     color: white;
     border: solid #8D6AD7 1px;
@@ -111,17 +109,144 @@ button{
     margin-bottom: 40px;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.05);
 }
 
-.paper{
+.paper {
     width: fit-content;
     background-color: #F9F9F9 !important;
     border: solid #BAA6C6 1px;
 }
 
-.arrow{
+.arrow {
     height: 200px;
     width: 200px;
+}
+
+.scrollDwn {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0;
+    /* border: solid red 1px; */
+    color: #BD9DFF;
+}
+
+.scrollDwn2 {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0;
+    /* border: solid red 1px; */
+    color: #be9dffc8;
+}
+
+.scrollDwn3 {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0;
+    /* border: solid red 1px; */
+    color: #be9dff9a;
+}
+
+.scrollDwn4 {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px 0;
+    /* border: solid red 1px; */
+    color: #be9dff4d;
+}
+
+.aboutMe {
+    padding: 50px 0;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.about {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: rgba(39, 37, 37, 0.839)
+}
+
+.warning {
+    color: #BD9DFF;
+    padding: 0 10px 0 0;
+    font-size: .9em;
+}
+
+.points {
+    font-size: 1.3em;
+    color: #464346e3;
+    padding: 15px 0;
+    line-height: 1.5;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.aboutText {
+    margin-top: 20px;
+}
+
+.myArt {
+    /* border: solid red 1px; */
+    /* text-align: center; */
+    padding: 20px 0;
+}
+
+.art {
+    padding: 0 10px 0 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 2px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .homeCard {
+        width: 100%;
+        margin: 0 auto;
+        /* border: solid red 1px; */
+        margin-bottom: 20px;
+    }
+
+    .myName {
+        font-size: 3em;
+        display: inline;
+        text-align: center;
+        /* border: solid red 1px; */
+        font-weight: 500;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .keep{
+        display: inline-block;
+    }
+
+    
+    .verify {
+        display: inline;
+    }
+
+
+.allInfo {
+    /* border: solid red 1px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+    .homeContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+    }
 }

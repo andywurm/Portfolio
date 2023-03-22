@@ -19,7 +19,7 @@ const About = () => {
             }}
 
         >
-            <div style={{ height: "75vh", margin: "0 auto" }}>
+            <div style={{ height: "75vh", margin: "0 auto",}}>
                 <div className="aboutContainer">
 
                     <div className="pictureAbout">
