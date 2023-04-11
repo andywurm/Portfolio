@@ -30,6 +30,8 @@
     justify-content: center;
     position: relative;
     top: -20px;
+    align-items: center;
+    /* border: solid red 1px; */
 }
 
 .keep {
@@ -92,7 +94,7 @@
     border-radius: 10px;
     position: relative;
     top: 198px;
-    left: 150px;
+    left: 50px;
     border: solid green 1px;
     /* border: solid red 1px; */
 }
