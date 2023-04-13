@@ -19,7 +19,7 @@ const projects: Projects[] = [
         projectWebsite: "https://uptoskate.onrender.com/",
         projectRepository: "https://github.com/andywurm/UpToSkate",
         projectDescription: "Users can search and view skater information, upcoming events and past results. Thus all figure skating information is located all in one place.",
-        projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js",
+        projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js, Sequelize, Postgres",
         status: 'Present'
     },
     {
