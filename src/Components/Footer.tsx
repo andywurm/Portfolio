@@ -15,7 +15,7 @@ const Footer = () => {
             justifyContent: "center",
             color: "#8E8E8E"
         }}>
-        <div style={{padding: "15px"}}>Last Updated : March 2023</div>
+        <div style={{padding: "15px"}}>Last Updated : May 2023</div>
         </motion.div>
     )
 }

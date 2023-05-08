@@ -1,80 +1,48 @@
-.aboutContainer{
-    /* border: solid red 1px; */
-    height: fit-content;
-    width: 80%;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 50px;
-    overflow: hidden;
-}
-
-.pictureAbout{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 20%;
-    /* border: solid red 1px; */
-}
-
-.textAbout{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
-    /* border: solid red 1px; */
-    font-size: 1.2em;
+.aboutMe {
+    padding: 20px 0;
     text-align: left;
-    align-items: center;
-}
-
-.aText{
-    padding: 0 20px;
-}
-
-.hiText{
-    font-size: 1.8em;
-    margin-bottom: 20px;
-}
-
-.aboutImg{
-    height: 180px;
-    width: 200px;
-    border-radius: 6px;
-    box-shadow: -3px 4px 1px #BD9DFF;
     margin: 0 auto;
-    position: relative;
-    top: 5px;
+    width: 70%;
 }
 
-.aboutP{
-    padding: 10px 0;
-    line-height: 1.5em;
-    color: #414141;
+.about {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgba(39, 37, 37, 0.839)
 }
 
-.listedA{
-    color: #414141;
-}
-
-.aboutT{
-    line-height: 1.6em;
-}
-
-.ps{
-    padding: 20px 0;
-}
-
-.resumeHere{
-    padding: 20px 0;
-    font-weight: 500;
-    color: #515151;
-}
-
-.resumeLink{
+.warning {
     color: #BD9DFF;
+    padding: 0 10px 0 0;
+    font-size: .9em;
+}
+
+.points {
+    font-size: 1.2em;
+    color: #3d3a3de3;
+    padding: 15px 0;
+    line-height: 1.5;
+}
+
+.under {
     text-decoration: underline;
 }
 
-.resumeLink:hover{
-    color: #c585da;
+.aboutText {
+    margin-top: 20px;
+}
+
+.myArt {
+    /* border: solid red 1px; */
+    /* text-align: center; */
+    padding: 20px 0;
+}
+
+.art {
+    padding: 0 10px 0 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 2px;
+
 }

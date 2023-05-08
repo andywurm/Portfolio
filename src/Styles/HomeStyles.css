@@ -164,55 +164,6 @@ button:hover {
     color: #be9dff4d;
 }
 
-.aboutMe {
-    padding: 50px 0;
-    text-align: left;
-    margin: 0 auto;
-    width: 70%;
-}
-
-.about {
-    font-size: 3em;
-    font-weight: 400;
-    margin-bottom: 50px;
-    color: rgba(39, 37, 37, 0.839)
-}
-
-.warning {
-    color: #BD9DFF;
-    padding: 0 10px 0 0;
-    font-size: .9em;
-}
-
-.points {
-    font-size: 1.3em;
-    color: #464346e3;
-    padding: 15px 0;
-    line-height: 1.5;
-}
-
-.under {
-    text-decoration: underline;
-}
-
-.aboutText {
-    margin-top: 20px;
-}
-
-.myArt {
-    /* border: solid red 1px; */
-    /* text-align: center; */
-    padding: 20px 0;
-}
-
-.art {
-    padding: 0 10px 0 0;
-    height: 250px;
-    width: 250px;
-    border-radius: 2px;
-
-}
-
 
 @media only screen and (max-width: 900px) {
     .homeCard {

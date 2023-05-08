@@ -27,9 +27,10 @@ const projects: Projects[] = [
         projectLogo: "DramaTrack.png",
         projectImg: "DramaSite.png",
         projectDate: "Feb - May 2022",
+        projectWebsite: "https://dramatracker.onrender.com/",
         projectRepository: "https://github.com/andywurm/DramaTracker",
         projectDescription: "Allows users to track which Japanese shows or movies they have watched, are watching or plan to watch. The user is able to read up on the content, and decide which list they would like to add that show or movie to.",
-        projectTech: "React, JavaScript, HTML/CSS, Node.js, Express.js",
+        projectTech: "React, JavaScript, HTML/CSS, Node.js, Express.js, Postgres, Sequelize",
         status: "2022"
     },
     {

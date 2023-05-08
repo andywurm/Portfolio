@@ -1,7 +1,10 @@
 import { motion } from "framer-motion"
 import '../Styles/AboutStyles.css'
-import pfp from '../Img/MyPfp.png'
-import test from '../Img/About.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faAnglesDown, faCircleExclamation } from "@fortawesome/free-solid-svg-icons"
+import myart from '../Img/myart1.png'
+import myart2 from '../Img/myart2.png'
+import myart3 from '../Img/myart3.png'
 
 const About = () => {
     return (
@@ -11,54 +14,34 @@ const About = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
 
-            style={{
-                backgroundImage: 'url(' + test + ')',
-                backgroundSize: 'cover',
-                // backgroundRepeat: 'no-repeat',
-                imageRendering: "crisp-edges"
-            }}
 
         >
-            <div style={{ height: "75vh", margin: "0 auto",}}>
-                <div className="aboutContainer">
+            <div className="aboutMe">
+                <div className="about"><FontAwesomeIcon icon={faCircleExclamation} className='warning' />About Me</div>
 
-                    <div className="pictureAbout">
-                        <img src={pfp} alt='me' className="aboutImg" />
+                <div className="points"><span className="under">Engineering</span>:
+                    <div className="aboutText">I am a Software Engineer / Frontend Developer with a background in art. I like to design and create beautiful web applications using React and other frontend technology.
                     </div>
+                </div>
 
-                    <div className="textAbout">
-
-                        <div className="aText">
-
-                            <div className="hiText"><b>Hi, my name is <span style={{ color: '#BD9DFF' }}>Andaiye</span>!</b>
-                                <br />
-                            </div>
-
-                            <div className="ps">
-                                <div className="aboutP">
-                                    I am a software engineer / frontend developer with a background in art. 
-                                    I like to design and create beautiful web applications using React and other frontend technology.
-                                </div>
-
-                                <div className="aboutP">
-                                    I am open to learning new things and using the skills I have acquired to build new, creative and interesting products.
-                                </div>
-                            </div>
-
-
-                            <div className="aboutT">
-                                <b>Technology:</b> <span className="listedA">React, Bootstrap, Material UI, Github/GitLab, Node.js, Express, SequelizeORM, Unity</span>
-                                <br />
-                                <b>Languages:</b> <span className="listedA">HTML, CSS, SASS, JavaScript, TypeScript, Java, C#, Python</span>
-                                <br />
-                                <b>Skills:</b> <span className="listedA"> Figma, Sketch, Adobe Illustrator, Slack, Trello, Zoom</span>
-                            </div>
-
-                            <div className="resumeHere">Check out my <span className="resumeLink" onClick={() => window.open("https://docs.google.com/document/d/1eenSs-CFLv9ssMDn--Uwngyl5BfwHH6RV9RzW2N3eVQ/edit?usp=sharing")}>resume</span> here! </div>
-                        </div>
+                <div className="points"><span className="under">Design</span>:
+                    <div className="aboutText">As I stated I have a background in art. This means that I have an eye for design. I can tell when things look good or not. I can identify areas that need improvement and how to improve them if needed.
                     </div>
+                </div>
+
+                <div className="points"><span className="under">Art</span>:
+                    <div className="aboutText">In addition to engineering and design I also like to draw! Check out some of my art below!
+                    </div>
+                </div>
+
+                <div className="myArt">
+
+                        <img src={myart} alt="drawing" className="art"/>
+                        <img src={myart2} alt="drawing" className="art"/>
+                        <img src={myart3} alt="drawing" className="art"/>
 
                 </div>
+
             </div>
         </motion.div >
     )
