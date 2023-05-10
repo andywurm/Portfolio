@@ -4,6 +4,7 @@ import pfp from '../Img/MyPfp.png'
 import { useNavigate } from "react-router-dom"
 import { Paper } from "@mui/material"
 import '../Styles/HomeStyles.css'
+// import x from '../Img/remove.png'
 // import bkg from '../Img/Backgrounds.png'
 
 
@@ -45,6 +46,7 @@ const Home = () => {
                             <div style={{ display: 'flex', flexDirection: "row", padding: "20px 20px" }}>
                                 <img className="pfp" src={pfp} alt="Me" />
                             </div>
+                            <div className="cardName">Andaiye Wurm</div>
                             <div style={{ display: 'flex', flexDirection: "row" }}>
                                 <button onClick={() => handleClick()}>+ Connect</button>
                             </div>

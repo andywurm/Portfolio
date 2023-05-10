@@ -81,10 +81,16 @@
 .pfp {
     height: 170px;
     width: 180px;
-    border-radius: 110px;
+    border-radius: 200px;
     margin-top: 50px;
-    margin: 10px 3px;
+    margin: 10px 3px 0 3px;
     /* border: solid red 1px; */
+}
+
+.cardName {
+    font-size: 1.3em;
+    padding: 0 0 10px 0;
+    color: rgba(69, 69, 69, 0.885);
 }
 
 .circle {
@@ -128,42 +134,6 @@ button:hover {
     width: 200px;
 }
 
-.scrollDwn {
-    text-align: left;
-    margin: 0 auto;
-    width: 70%;
-    padding: 10px 0;
-    /* border: solid red 1px; */
-    color: #BD9DFF;
-}
-
-.scrollDwn2 {
-    text-align: left;
-    margin: 0 auto;
-    width: 70%;
-    padding: 10px 0;
-    /* border: solid red 1px; */
-    color: #be9dffc8;
-}
-
-.scrollDwn3 {
-    text-align: left;
-    margin: 0 auto;
-    width: 70%;
-    padding: 10px 0;
-    /* border: solid red 1px; */
-    color: #be9dff9a;
-}
-
-.scrollDwn4 {
-    text-align: left;
-    margin: 0 auto;
-    width: 70%;
-    padding: 10px 0;
-    /* border: solid red 1px; */
-    color: #be9dff4d;
-}
-
 
 @media only screen and (max-width: 900px) {
     .homeCard {
@@ -183,21 +153,19 @@ button:hover {
         margin: 0 auto;
     }
 
-    .keep{
+    .keep {
         display: inline-block;
     }
 
-    
     .verify {
         display: inline;
     }
 
-
-.allInfo {
-    /* border: solid red 1px; */
-    width: 100%;
-    margin: 0 auto;
-}
+    .allInfo {
+        /* border: solid red 1px; */
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .homeContainer {
         display: flex;
