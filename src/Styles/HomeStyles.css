@@ -12,7 +12,7 @@
     text-align: left;
     justify-content: center;
     /* border: solid red 1px; */
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .allInfo {
@@ -79,11 +79,11 @@
 }
 
 .pfp {
-    height: 170px;
-    width: 180px;
-    border-radius: 200px;
+    height: 180px;
+    width: 190px;
+    border-radius: 10px;
     margin-top: 50px;
-    margin: 10px 3px 0 3px;
+    margin: 40px 0 0 3px;
     /* border: solid red 1px; */
 }
 
@@ -139,8 +139,9 @@ button:hover {
     .homeCard {
         width: 100%;
         margin: 0 auto;
+        top: 0;
         /* border: solid red 1px; */
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .myName {
@@ -159,6 +160,8 @@ button:hover {
 
     .verify {
         display: inline;
+        width: 100%;
+        opacity: 0;
     }
 
     .allInfo {
@@ -170,6 +173,6 @@ button:hover {
     .homeContainer {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
     }
 }
