@@ -53,7 +53,7 @@ const Home = () => {
                             </div>
                             <h2 className="location"> New York, NY</h2>
 
-                            <div className="homeText">Looking for work as a Software Engineer or Frontend Developer.</div>
+                            <div className="homeText"> Actively seeking opportunities as a Software Engineer or Frontend Developer.</div>
                         </div>
                     </div>
 

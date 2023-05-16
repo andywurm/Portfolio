@@ -18,7 +18,7 @@ const projects: Projects[] = [
         projectDate: "Sep 2022 - Now",
         projectWebsite: "https://uptoskate.onrender.com/",
         projectRepository: "https://github.com/andywurm/UpToSkate",
-        projectDescription: "Users can search and view skater information, upcoming events and past results. Thus all figure skating information is located all in one place.",
+        projectDescription: "Users can easily access a comprehensive hub that houses an array of figure skating information, including skater profiles, upcoming events, and past results. This centralized platform serves as the ultimate destination for all figure skating enthusiasts, providing a convenient experience for accessing a wealth of relevant information.",
         projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js, Sequelize, Postgres",
         status: 'Present'
     },
@@ -29,7 +29,7 @@ const projects: Projects[] = [
         projectDate: "Feb - May 2022",
         projectWebsite: "https://dramatracker.onrender.com/",
         projectRepository: "https://github.com/andywurm/DramaTracker",
-        projectDescription: "Allows users to track which Japanese shows or movies they have watched, are watching or plan to watch. The user is able to read up on the content, and decide which list they would like to add that show or movie to.",
+        projectDescription: "Empowers users to effortlessly track their viewing progress of Japanese shows and movies, whether watched, in progress, or planned for the future. Users can delve into detailed information about the content and seamlessly curate their desired lists for each show or movie.",
         projectTech: "React, JavaScript, HTML/CSS, Node.js, Express.js, Postgres, Sequelize",
         status: "2022"
     },
@@ -39,7 +39,7 @@ const projects: Projects[] = [
         projectImg: "HHub.png",
         projectDate: "Oct - December 2021",
         projectRepository: "https://github.com/lbcmp/Hobby-Hub",
-        projectDescription: "Empowered connections based on matching users to others with similar hobbies.",
+        projectDescription: "Fosters meaningful connections by bringing together individuals who share common hobbies and interests.",
         projectTech: "React, JavaScript, HTML/CSS",
         status: "2021"
     },
@@ -49,7 +49,7 @@ const projects: Projects[] = [
         projectImg: "HSJsite.png",
         projectDate: "June - July 2021",
         projectRepository: "https://github.com/andywurm/HeySayJUMPWebsite",
-        projectDescription: "Served as promotion for the group Hey! Say! JUMP! Allowed users to keep up with their favorite member as well as 'purchase' merchandise.",
+        projectDescription: "Served as an engaging promotional platform for the group Hey! Say! JUMP!, enabling fans to stay updated on their favorite member while also offering the opportunity to explore and 'acquire' exclusive merchandise.",
         projectTech: "JavaScript, HTML/CSS",
         status: "2021"
     }

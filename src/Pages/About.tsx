@@ -20,12 +20,13 @@ const About = () => {
                 <div className="about"><FontAwesomeIcon icon={faCircleExclamation} className='warning' />About Me</div>
 
                 <div className="points"><span className="under">Engineering</span>:
-                    <div className="aboutText">I am a Software Engineer / Frontend Developer with a background in art. I like to design and create beautiful web applications using React and other frontend technology.
+                    <div className="aboutText">
+                    I am a passionate Software Engineer / Frontend Developer who merges my artistic background with technical skills to craft visually captivating web applications. With expertise in React and various frontend technologies, I take joy in designing and developing stunning user interfaces that seamlessly blend form and functionality. 
                     </div>
                 </div>
 
                 <div className="points"><span className="under">Design</span>:
-                    <div className="aboutText">As I stated I have a background in art. This means that I have an eye for design. I can tell when things look good or not. I can identify areas that need improvement and how to improve them if needed.
+                    <div className="aboutText">With a solid foundation in art, I possess a keen eye for design that allows me to discern aesthetics with precision. Recognizing what appeals visually to users and what could benefit from enhancements comes naturally to me.
                     </div>
                 </div>
 
