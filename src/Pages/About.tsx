@@ -12,12 +12,16 @@ import code from '../Img/code.png'
 import palette from '../Img/palette.png'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const About = () => {
 
     const [index, setIndex] = useState(0)
     let artList = [myart, myart2, myart3, myart4, myart5, myart6, myart7]
+
+    useEffect(() => {
+
+    },[index])
 
     function moveForward() {
         if (index + 2 !== artList.length - 1) {
@@ -43,7 +47,9 @@ const About = () => {
         >
             <div className="aboutMe">
                 <div className="topLine"></div>
-                <div className="about">About</div>
+                <br/>
+                <br/>
+                {/* <div className="about">About</div> */}
 
                 <div className="categories">
 
