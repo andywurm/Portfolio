@@ -12,10 +12,10 @@ const Portfolio = () => {
 
             id="portfolio"
         >
-            {/* <div style={{ height: "fit-content", width: "65%", margin: "0px auto", marginTop: '20px' }}>
+            <div style={{ height: "fit-content", width: "65%", margin: "0px auto", marginTop: '20px' }}>
                 <div className="topLine"></div>
-                <div className="projects">Projects</div>
-            </div> */}
+                {/* <div className="projects">Projects</div> */}
+            </div>
 
             <div style={{ height: "fit-content", width: "90%", margin: "0px auto", marginTop: '20px' }}>
                 <div className="timeline">

@@ -52,6 +52,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 3px;
+    color: rgb(47, 47, 47);
 }
 
 .aboutText{
@@ -93,6 +94,46 @@
     width: 100%;
 }
 
+
+.myArt {
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+.art {
+    height: 100%;
+    max-height: 300px;
+    width: 95%;
+    border-radius: 2px;
+    border: solid rgb(161, 161, 161) 1px;
+    /* padding: 0 10px 0 0; */
+    margin: 0 5px;
+}
+
+.art:hover{
+    transform: scale(1.05);
+}
+
+.slides{
+   border: solid rgba(180, 180, 180, 0.417) 1px;
+   background-color: rgb(249, 245, 253);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   width: 95%;
+   border-radius: 2px;
+}
+
+.clickme{
+    padding: 0px 10px;
+}
+
+.clickme:hover{
+    transform: scale(1.2);
+}
+
 @media only screen and (max-width: 1000px) {
     .outerpoint{
         flex-basis: 100%;
@@ -121,16 +162,3 @@
         width: 100%;
     }
 }
-
-/* .myArt {
-    padding: 20px 0;
-}
-
-.art {
-    padding: 0 10px 0 0;
-    height: 225px;
-    width: 225px;
-    border-radius: 2px;
-}  */
-
-
