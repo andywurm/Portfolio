@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import verified from '../Img/verifiedBadge.png'
-import pfp from '../Img/MyPfp.png'
+import pfp from '../Img/MyPfp.jpg'
 import { useNavigate } from "react-router-dom"
 import { Paper } from "@mui/material"
 import '../Styles/HomeStyles.css'
@@ -22,9 +22,11 @@ const Home = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+
+            id="home"
             
         >
-            <div style={{ width: "70%", height: "75vh", margin: "0 auto"}}>
+            <div style={{ width: "70%", height: "100vh", margin: "0 auto"}}>
                 <div className="homeContainer">
 
                 <div className="homeCard">

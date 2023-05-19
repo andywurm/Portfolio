@@ -7,6 +7,20 @@
     margin: 0 auto;
 }
 
+.projects {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgba(39, 37, 37, 0.839)
+}
+
+.topLine{
+    height: 5px;
+    width: 25%;
+    background-color: #BD9DFF;
+    margin-bottom: 10px;
+}
+
 .pageTitle{
     text-align: left;
     font-size: 2.5em;

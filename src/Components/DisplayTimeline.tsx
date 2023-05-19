@@ -29,12 +29,11 @@ const DisplayTimeline = (props: IDisplayTimelineProps) => {
                                 {item.status}
                             </TimelineOppositeContent>
                             <TimelineSeparator>
-                                <TimelineDot sx={{backgroundColor: '#af91ea'}} />
+                                <TimelineDot sx={{ backgroundColor: '#af91ea' }} />
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
                                 <div className="projectSep">
-
                                     <div>
                                         <img className="projectImg" src={`./${item.projectLogo}`} alt="UTS" />
                                         <div className="projectTitle">{item.projectName}</div>
@@ -48,8 +47,8 @@ const DisplayTimeline = (props: IDisplayTimelineProps) => {
 
                                     {item.projectWebsite ? <div className="goToWeb"> Website: <span className="projectLink" onClick={() => window.open(`${item.projectWebsite}`)}>{item.projectWebsite}</span>
                                     </div>
-                                    : null }
-                                    
+                                        : null}
+
                                     <div className="goToWeb">
                                         Repository: <span className="projectLink" onClick={() => window.open(`${item.projectRepository}`)}> {item.projectRepository} </span>
                                     </div>
@@ -63,6 +62,7 @@ const DisplayTimeline = (props: IDisplayTimelineProps) => {
                             </TimelineContent>
                         </TimelineItem>
                     </Timeline>
+
                 )
             })}
         </div>

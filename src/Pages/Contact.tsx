@@ -53,15 +53,10 @@ const Contact = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-        // style={{border: 'solid red 1px'}}
-        // style={{
-        //     backgroundImage: 'url(' + test + ')',
-        //     backgroundSize: 'cover',
-        //     // backgroundRepeat: 'no-repeat',
-        //     imageRendering: "crisp-edges"
-        // }}
+
+            id="contact"
         >
-            <div style={{ height: "80vh", width: "95%", margin: "0 auto" }}>
+            <div style={{ height: "100vh", width: "95%", margin: "0 auto" }}>
                 <div className="contactContainer">
 
                     <div className="textContainer">

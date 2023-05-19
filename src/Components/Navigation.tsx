@@ -1,5 +1,7 @@
+import zIndex from '@mui/material/styles/zIndex';
 import { motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
+import {Link} from 'react-scroll'
 
 const Navigation = () => {
     return (
@@ -13,7 +15,10 @@ const Navigation = () => {
                 width: "100%",
                 display: "flex",
                 flexDirection: "row",
-                // border: 'solid red 1px'
+                position: "fixed",
+                backgroundColor: "white",
+                // border: 'solid red 1px',
+                zIndex: "100"
             }}>
                 
             <h1 className="websiteName" style={{
@@ -40,10 +45,10 @@ const Navigation = () => {
             }}>
 
                 <div style={{ textAlign: "right", marginRight: '20px' }}>
-                    <NavLink className="Links" to='/' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Home</NavLink>
-                    <NavLink className="Links" to='/About' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</NavLink>
-                    <NavLink className="Links" to='/Portfolio' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Portfolio</NavLink>
-                    <NavLink className="Links" to='/Contact' style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Contact</NavLink>
+                    <Link to="home" spy={true} smooth={true} offset={-200} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Home</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</Link>
+                    <Link to="portfolio" spy={true} smooth={true} offset={-110} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Portfolio</Link>
+                    <Link to="contact" spy={true} smooth={true} offset={-40} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Contact</Link>
                 </div>
             </div>
 

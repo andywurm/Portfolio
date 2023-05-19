@@ -4,6 +4,10 @@ import { BrowserRouter as Router } from "react-router-dom"
 import AnimatedRoutes from './Components/AnimatedRoutes';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
 
 function App() {
 
@@ -15,7 +19,11 @@ function App() {
     <div className="App">
       <Router>
         <Navigation />
-        <AnimatedRoutes />
+        {/* <AnimatedRoutes /> */}
+        <Home />
+        <About />
+        <Portfolio />
+        <Contact />
         <Footer />
       </Router>
     </div>

@@ -19,7 +19,7 @@ const projects: Projects[] = [
         projectWebsite: "https://uptoskate.onrender.com/",
         projectRepository: "https://github.com/andywurm/UpToSkate",
         projectDescription: "Users can easily access a comprehensive hub that houses an array of figure skating information, including skater profiles, upcoming events, and past results. This centralized platform serves as the ultimate destination for all figure skating enthusiasts, providing a convenient experience for accessing a wealth of relevant information.",
-        projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js, Sequelize, Postgres",
+        projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js, Sequelize, PostgreSQL",
         status: 'Present'
     },
     {
@@ -30,7 +30,7 @@ const projects: Projects[] = [
         projectWebsite: "https://dramatracker.onrender.com/",
         projectRepository: "https://github.com/andywurm/DramaTracker",
         projectDescription: "Empowers users to effortlessly track their viewing progress of Japanese shows and movies, whether watched, in progress, or planned for the future. Users can delve into detailed information about the content and seamlessly curate their desired lists for each show or movie.",
-        projectTech: "React, JavaScript, HTML/CSS, Node.js, Express.js, Postgres, Sequelize",
+        projectTech: "React, JavaScript, HTML/CSS, Node.js, Express.js, PostgreSQL, Sequelize",
         status: "2022"
     },
     {
