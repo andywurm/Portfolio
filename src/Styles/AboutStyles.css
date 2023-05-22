@@ -13,6 +13,16 @@
     color: rgba(39, 37, 37, 0.839)
 }
 
+.aboutText{
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 2;
+    /* margin-bottom: 30px; */
+    /* border: solid red 1px; */
+    position: relative;
+    top: -30px;
+}
+
 .topLine {
     height: 5px;
     width: 25%;
@@ -55,12 +65,12 @@
     color: rgb(47, 47, 47);
 }
 
-.aboutText {
+/* .aboutText {
     width: 100%;
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
-}
+} */
 
 .iconic {
     height: fit-content;
@@ -124,6 +134,8 @@
     padding: 10px;
     width: 95%;
     border-radius: 2px;
+    position: relative;
+    top: -20px
 }
 
 .clickme {

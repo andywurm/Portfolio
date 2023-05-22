@@ -1,3 +1,4 @@
+
 import '../Styles/AboutStyles.css'
 import myart from '../Img/myart1.png'
 import myart2 from '../Img/myart2.png'
@@ -61,13 +62,24 @@ const About = () => {
                 <br />
                 {/* <div className="about">About</div> */}
 
-                <div className="categories">
+                <div className='aboutText'>
+                    <p>
+                        I am a passionate <b>Software Engineer</b> who merges my artistic background with technical skills to craft visually captivating web applications. With expertise in <b>React</b> and various <b>frontend technologies</b>, I take joy in designing and developing stunning <b>user interfaces</b> that seamlessly blend form and functionality.
+                    </p>
+
+                    <p>With a solid foundation in <b>art</b>, I possess a keen eye for <b>design</b> that allows me to discern aesthetics with precision. Recognizing what appeals visually to users and what could benefit from enhancements comes naturally to me.
+                    </p>
+
+                    Check out my art <b>below</b>!
+                </div>
+
+                {/* <div className="categories">
 
                     <div className="outerpoint">
                         <div className="iconic">
                             <img src={code} alt="code" className="icon" />
                         </div>
-                        {/* <div className="aboutText">Code</div> */}
+
                         <div className="points">
                             I am a Software Engineer who merges my artistic and technical skills to craft visually captivating web applications.
                         </div>
@@ -77,7 +89,7 @@ const About = () => {
                         <div className="iconic">
                             <img src={drawing} alt="design" className="icon" />
                         </div>
-                        {/* <div className="aboutText">Design</div> */}
+
                         <div className="points">
                             With a solid foundation in art, I possess a keen eye for design. Recognizing what appeals visually to users comes naturally to me.
                         </div>
@@ -87,13 +99,13 @@ const About = () => {
                         <div className="iconic">
                             <img src={palette} alt="art" className="icon" />
                         </div>
-                        {/* <div className="aboutText">Art</div> */}
+
                         <div className="points">
                             In addition to engineering and design I also like to draw! <br /> <br /> Check out some of my art below!
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
                 <br />
 

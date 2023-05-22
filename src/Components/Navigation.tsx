@@ -49,7 +49,7 @@ const Navigation = () => {
 
                 <div style={{ textAlign: "right", marginRight: '20px' }}>
                     <Link to="home" spy={true} smooth={true} offset={-200} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Home</Link>
-                    <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</Link>
+                    <Link to="about" spy={true} smooth={true} offset={-90} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>About</Link>
                     <Link to="portfolio" spy={true} smooth={true} offset={-110} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Portfolio</Link>
                     <Link to="contact" spy={true} smooth={true} offset={-40} duration={500} className="Links" style={{ display: "inline-block", padding: "4%", textDecoration: "none" }}>Contact</Link>
                 </div>
