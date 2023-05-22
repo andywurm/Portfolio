@@ -60,7 +60,6 @@ const About = () => {
                 <div className="topLine2"></div>
                 <br />
                 <br />
-                {/* <div className="about">About</div> */}
 
                 <div className='aboutText'>
                     <p>
@@ -72,40 +71,6 @@ const About = () => {
 
                     Check out my art <b>below</b>!
                 </div>
-
-                {/* <div className="categories">
-
-                    <div className="outerpoint">
-                        <div className="iconic">
-                            <img src={code} alt="code" className="icon" />
-                        </div>
-
-                        <div className="points">
-                            I am a Software Engineer who merges my artistic and technical skills to craft visually captivating web applications.
-                        </div>
-                    </div>
-
-                    <div className="outerpoint">
-                        <div className="iconic">
-                            <img src={drawing} alt="design" className="icon" />
-                        </div>
-
-                        <div className="points">
-                            With a solid foundation in art, I possess a keen eye for design. Recognizing what appeals visually to users comes naturally to me.
-                        </div>
-                    </div>
-
-                    <div className="outerpoint">
-                        <div className="iconic">
-                            <img src={palette} alt="art" className="icon" />
-                        </div>
-
-                        <div className="points">
-                            In addition to engineering and design I also like to draw! <br /> <br /> Check out some of my art below!
-                        </div>
-                    </div>
-
-                </div> */}
 
                 <br />
 
@@ -130,11 +95,9 @@ const About = () => {
                 <div className="smallSlides">
 
                     <div className="theArt">
-
                         <div className="myArt">
                             <img src={artList[index]} alt="art" className="art" />
                         </div>
-
                     </div>
 
                     <div className="holdBtn">
