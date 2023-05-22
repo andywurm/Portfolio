@@ -1,3 +1,9 @@
+.homeHome{
+    width: 70%; 
+    height: 100vh; 
+    margin: 0 auto;
+}
+
 .homeContainer {
     display: flex;
     flex-direction: row;
@@ -136,17 +142,19 @@ button:hover {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .homeCard {
         width: 100%;
         margin: 0 auto;
         top: 0;
         /* border: solid red 1px; */
+        align-self: flex-end;
+        margin-bottom: 5%;
         /* margin-bottom: 20px; */
     }
 
     .myName {
-        font-size: 3em;
+        font-size: 2em;
         display: inline;
         text-align: center;
         /* border: solid red 1px; */
@@ -155,19 +163,28 @@ button:hover {
         margin: 0 auto;
     }
 
+    .homeInfo{
+        /* border: solid red 1px; */
+        align-self: flex-start;
+        top: 0;
+        text-align: center;
+    }
+
+    .pronouns{
+        display: none;
+    }
+
     .keep {
         display: inline-block;
     }
 
     .verify {
-        display: inline;
-        width: 100%;
-        opacity: 0;
+        display:none;
     }
 
     .allInfo {
         /* border: solid red 1px; */
-        width: 100%;
+        /* width: 100%; */
         margin: 0 auto;
     }
 
@@ -175,5 +192,13 @@ button:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        /* border: solid red 1px; */
+        width: 100%;
+        margin: 0 auto;
+        height: fit-content;
+    }
+    .homeHome{
+        height: fit-content;
+        margin-bottom: 20%;
     }
 }

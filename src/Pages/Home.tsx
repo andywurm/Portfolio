@@ -26,24 +26,13 @@ const Home = () => {
             id="home"
             
         >
-            <div style={{ width: "70%", height: "100vh", margin: "0 auto"}}>
+            <div className="homeHome">
                 <div className="homeContainer">
 
                 <div className="homeCard">
                     <div style={{ display: 'flex', flexDirection: "row", padding: "20px 20px" }}>
                                 <img className="pfp" src={pfp} alt="Me" />
                             </div>
-                        {/* <div className="circle"></div>
-                        <Paper elevation={3} className="paper">
-                            <div style={{ display: 'flex', flexDirection: "row", padding: "20px 20px" }}>
-                                <img className="pfp" src={pfp} alt="Me" />
-                            </div>
-                            <div className="cardName">Andaiye Wurm</div>
-                            <div style={{ display: 'flex', flexDirection: "row" }}>
-                                <button onClick={() => handleClick()}>+ Connect</button>
-                            </div>
-                        </Paper> */}
-
                     </div>
 
                     <div className="homeInfo">

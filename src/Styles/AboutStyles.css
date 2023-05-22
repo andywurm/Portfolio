@@ -13,14 +13,14 @@
     color: rgba(39, 37, 37, 0.839)
 }
 
-.topLine{
+.topLine {
     height: 5px;
     width: 25%;
     background-color: #BD9DFF;
     margin-bottom: 10px;
 }
 
-.categories{
+.categories {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@
 }
 
 
-.outerpoint{
+.outerpoint {
     flex-direction: column;
     height: fit-content;
     flex-basis: 30%;
@@ -37,7 +37,7 @@
     left: -10px;
 }
 
-.points{
+.points {
     padding: 10px 10px;
     /* border: solid red 1px; */
     text-align: center;
@@ -55,14 +55,14 @@
     color: rgb(47, 47, 47);
 }
 
-.aboutText{
+.aboutText {
     width: 100%;
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.iconic{
+.iconic {
     height: fit-content;
     width: 100%;
     text-align: center;
@@ -71,7 +71,8 @@
     align-content: center;
     margin-bottom: 20px;
 }
-.icon{
+
+.icon {
     height: 50px;
     width: 50px;
     margin: 0 auto;
@@ -80,7 +81,7 @@
     padding: 10px;
 }
 
-.artpls{
+.artpls {
     height: 20vh;
     align-self: center;
     /* border: solid red 1px; */
@@ -109,39 +110,45 @@
     margin: 0 5px;
 }
 
-.art:hover{
+.art:hover {
     transform: scale(1.05);
 }
 
-.slides{
-   border: solid rgba(180, 180, 180, 0.417) 1px;
-   background-color: rgb(249, 245, 253);
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   padding: 10px;
-   width: 95%;
-   border-radius: 2px;
+.slides {
+    border: solid rgba(180, 180, 180, 0.417) 1px;
+    background-color: rgb(249, 245, 253);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 95%;
+    border-radius: 2px;
 }
 
-.clickme{
+.clickme {
     padding: 0px 10px;
 }
 
-.clickme:hover{
+.clickme:hover {
     transform: scale(1.2);
 }
 
+.smallSlides {
+    display: none;
+}
+
 @media only screen and (max-width: 1000px) {
-    .outerpoint{
+
+    .outerpoint {
         flex-basis: 100%;
         height: fit-content;
         min-height: fit-content;
         align-content: center;
+        left: 0;
     }
 
-    .points{
+    .points {
         min-height: 100px;
     }
 
@@ -149,15 +156,43 @@
         margin-top: 30px;
     }
 
-    .aboutMe{
+
+    .aboutMe {
         height: fit-content;
     }
-    
-    .about{
+
+    .about {
         margin-bottom: 20px;
     }
 
-    .topLine{
+    .topLine {
         width: 100%;
     }
+
+    .slides {
+        display: none;
+    }
+
+    .smallSlides {
+        display: contents;
+    }
+
+    .theArt {
+        /* border: solid red 1px; */
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .clickme {
+        display: inline;
+        /* border: solid red 1px; */
+        padding: 0 20%;
+    }
+
+    .holdBtn {
+        /* border: solid red 1px; */
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
 }

@@ -18,7 +18,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
+        <div className='navHere'>
+        <Navigation/>
+        </div>
         {/* <AnimatedRoutes /> */}
         <Home />
         <About />

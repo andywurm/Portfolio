@@ -1,15 +1,16 @@
-import zIndex from '@mui/material/styles/zIndex';
 import { motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
 import {Link} from 'react-scroll'
 
 const Navigation = () => {
+
     return (
         <motion.div
 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
+            
 
             style={{
                 width: "100%",
@@ -19,6 +20,8 @@ const Navigation = () => {
                 backgroundColor: "white",
                 // border: 'solid red 1px',
                 zIndex: "100"
+
+            
             }}>
                 
             <h1 className="websiteName" style={{

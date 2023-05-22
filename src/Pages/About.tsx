@@ -1,4 +1,3 @@
-import { motion } from "framer-motion"
 import '../Styles/AboutStyles.css'
 import myart from '../Img/myart1.png'
 import myart2 from '../Img/myart2.png'
@@ -14,14 +13,16 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useEffect, useState } from "react"
 
+let artList = [myart, myart2, myart3, myart4, myart5, myart6, myart7]
+
 const About = () => {
 
     const [index, setIndex] = useState(0)
-    let artList = [myart, myart2, myart3, myart4, myart5, myart6, myart7]
+    // const [images, setImages] = useState(artList.slice(0, 3))
 
     useEffect(() => {
-
-    },[index])
+        // setImages(artList.slice(index,index+3))
+    }, [index])
 
     function moveForward() {
         if (index + 2 !== artList.length - 1) {
@@ -35,20 +36,29 @@ const About = () => {
         }
     }
 
-    return (
-        <motion.div
+    function moveForward1() {
+        if (index !== artList.length - 1) {
+            setIndex(index + 1)
+        }
+    }
 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+    function moveBack1() {
+        if (index !== 0) {
+            setIndex(index - 1)
+        }
+    }
+
+    return (
+        <div
 
             id="about"
 
         >
             <div className="aboutMe">
                 <div className="topLine"></div>
-                <br/>
-                <br/>
+                <div className="topLine2"></div>
+                <br />
+                <br />
                 {/* <div className="about">About</div> */}
 
                 <div className="categories">
@@ -105,8 +115,26 @@ const About = () => {
 
                 </div>
 
+                <div className="smallSlides">
+
+                    <div className="theArt">
+
+                        <div className="myArt">
+                            <img src={artList[index]} alt="art" className="art" />
+                        </div>
+
+                    </div>
+
+                    <div className="holdBtn">
+                        <div className="clickme" onClick={moveBack1} style={{ color: index === 0 ? 'lightgray' : 'black' }}><ArrowBackIcon /></div>
+
+                        <div className="clickme" onClick={moveForward1} style={{ color: index === artList.length - 1 ? 'lightgray' : 'black' }}><ArrowForwardIcon /></div>
+                    </div>
+
+                </div>
+
             </div>
-        </motion.div >
+        </div >
     )
 }
 export default About

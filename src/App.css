@@ -14,3 +14,9 @@
 .active{
   color: #9E8EFF
 }
+
+@media only screen and (max-width: 900px) {
+  .navHere{
+      display: none
+  }
+}

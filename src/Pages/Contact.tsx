@@ -56,7 +56,7 @@ const Contact = () => {
 
             id="contact"
         >
-            <div style={{ height: "100vh", width: "95%", margin: "0 auto" }}>
+            <div className="contacted">
                 <div className="contactContainer">
 
                     <div className="textContainer">
@@ -73,9 +73,7 @@ const Contact = () => {
                     {sent ? <Sent /> :
 
                         <div className="messageContainer">
-                            <div
-                            // style={{ margin: '0 auto' }}
-                            >
+                            <div>
                                 <div className="messageBorder">
                                     <form onSubmit={handleClick}>
                                         <div className="stayConnected">Contact Me</div>
