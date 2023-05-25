@@ -12,15 +12,25 @@ export interface Projects {
 
 const projects: Projects[] = [
     {
+        projectName: "Let's Play Reviews",
+        projectLogo: "controller.png",
+        projectImg: "LPRSite.png",
+        projectDate: "May 2023 - Now",
+        projectRepository: "https://github.com/andywurm/LetsPlayReviews",
+        projectDescription: "Discover, rank and review your favorite games conveniently in a single location.",
+        projectTech: "React, TypeScript, HTML/CSS",
+        status: 'Present'
+    },
+    {
         projectName: "Up To Skate",
         projectLogo: "skater.png",
         projectImg: "skateSite.png",
-        projectDate: "Sep 2022 - Now",
+        projectDate: "Sep 2022 - Mar 2023",
         projectWebsite: "https://uptoskate.onrender.com/",
         projectRepository: "https://github.com/andywurm/UpToSkate",
         projectDescription: "Users can easily access a comprehensive hub that houses an array of figure skating information, including skater profiles, upcoming events, and past results. This centralized platform serves as the ultimate destination for all figure skating enthusiasts, providing a convenient experience for accessing a wealth of relevant information.",
         projectTech: "React, TypeScript, HTML/CSS, Node.js, Express.js, Sequelize, PostgreSQL",
-        status: 'Present'
+        status: '2023'
     },
     {
         projectName: "Drama Tracker",
