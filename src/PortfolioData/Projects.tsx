@@ -16,6 +16,7 @@ const projects: Projects[] = [
         projectLogo: "controller.png",
         projectImg: "LPRSite.png",
         projectDate: "May 2023 - Now",
+        projectWebsite: "https://letsplayreviews.onrender.com/",
         projectRepository: "https://github.com/andywurm/LetsPlayReviews",
         projectDescription: "Discover, rank and review your favorite games conveniently in a single location.",
         projectTech: "React, TypeScript, HTML/CSS",
