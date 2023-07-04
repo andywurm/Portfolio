@@ -1,20 +1,9 @@
 import { motion } from "framer-motion"
 import verified from '../Img/verifiedBadge.png'
-import pfp from '../Img/MyPfp.jpg'
-import { useNavigate } from "react-router-dom"
-import { Paper } from "@mui/material"
+import pfp from '../Img/PFP.png'
 import '../Styles/HomeStyles.css'
-// import x from '../Img/remove.png'
-// import bkg from '../Img/Backgrounds.png'
-
 
 const Home = () => {
-
-    const navigate = useNavigate()
-
-    function handleClick() {
-        navigate('/Contact')
-    }
 
     return (
         <motion.div

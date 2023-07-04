@@ -23,6 +23,17 @@ const projects: Projects[] = [
         status: 'Present'
     },
     {
+        projectName: "Quoted",
+        projectLogo: "quotes.png",
+        projectImg: "QuotedMobile.png",
+        projectDate: "June 2023",
+        projectWebsite: "https://tapplychallenge.web.app/",
+        projectRepository: "https://github.com/andywurm/TapplyChallenge",
+        projectDescription: "(View on Mobile) A mobile app that allows users to view and post quotes.",
+        projectTech: "Next.js, TypeScript, HTML/CSS, Firebase",
+        status: '2023'
+    },
+    {
         projectName: "Up To Skate",
         projectLogo: "skater.png",
         projectImg: "skateSite.png",
