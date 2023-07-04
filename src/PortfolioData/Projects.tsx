@@ -19,7 +19,7 @@ const projects: Projects[] = [
         projectWebsite: "https://letsplayreviews.onrender.com/",
         projectRepository: "https://github.com/andywurm/LetsPlayReviews",
         projectDescription: "Discover, rank and review your favorite games conveniently in a single location.",
-        projectTech: "React, TypeScript, HTML/CSS",
+        projectTech: "React, TypeScript, HTML/CSS, Django, Python",
         status: 'Present'
     },
     {
