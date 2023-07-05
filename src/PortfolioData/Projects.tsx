@@ -25,7 +25,7 @@ const projects: Projects[] = [
     {
         projectName: "Quoted",
         projectLogo: "quotes.png",
-        projectImg: "Quoted.png",
+        projectImg: "QuotedMobile.png",
         projectDate: "June 2023",
         projectWebsite: "https://tapplychallenge.web.app/",
         projectRepository: "https://github.com/andywurm/TapplyChallenge",
