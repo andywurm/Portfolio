@@ -65,7 +65,7 @@ const Contact = () => {
                             <div>
                                 <img className="cLogo" src={gh} alt="github" onClick={() => window.open("https://github.com/andywurm?tab=repositories")} />
                                 <img className="cLogo" src={li} alt="linkedin" onClick={() => window.open("https://www.linkedin.com/in/andaiye-wurm-5bb375209/")} />
-                                <FontAwesomeIcon className="cLogo res" icon={faFileArrowDown}  onClick={() => window.open("https://docs.google.com/document/d/1eenSs-CFLv9ssMDn--Uwngyl5BfwHH6RV9RzW2N3eVQ/edit?usp=sharing")}/>
+                                <a href="./Andaiye Wurm Resume .pdf" target="_blank" style={{color:'black'}}><FontAwesomeIcon className="cLogo res" icon={faFileArrowDown}/></a>
                             </div>
                         </div>
                     </div>
