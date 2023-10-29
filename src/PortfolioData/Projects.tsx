@@ -4,7 +4,7 @@ export interface Projects {
     projectImg: string,
     projectDate: string,
     projectWebsite?: string,
-    projectRepository: string,
+    projectRepository?: string,
     projectDescription: string,
     projectTech: string,
     status: string
@@ -12,6 +12,17 @@ export interface Projects {
 
 const projects: Projects[] = [
     {
+        projectName: "Flxlease",
+        projectLogo: "flxlogo.png",
+        projectImg: "FLX.png",
+        projectDate: "July 2023 - Now",
+        projectWebsite: "https://flxlease.com/",
+        projectDescription: "Discover a new way to rent using flexible housing options.",
+        projectTech: "React, TypeScript, HTML/CSS, GraphQL",
+        status: 'Present'
+    }
+    ,
+    {   
         projectName: "Let's Play Reviews",
         projectLogo: "controller.png",
         projectImg: "LPRSite.png",
@@ -20,7 +31,7 @@ const projects: Projects[] = [
         projectRepository: "https://github.com/andywurm/LetsPlayReviews",
         projectDescription: "Discover, rank and review your favorite games conveniently in a single location.",
         projectTech: "React, TypeScript, HTML/CSS, Django, Python",
-        status: 'Present'
+        status: 'On Hold'
     },
     {
         projectName: "Quoted",
